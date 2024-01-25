@@ -1,0 +1,13 @@
+server:
+    port: 8090
+spring:
+    redis:
+        database: 0
+        timeout: 3000
+        password: quectel2020
+        # 单节点模式
+        host: 192.168.25.189
+        port: 6379
+        # redisson配置文件路径
+        redisson:
+            file: classpath:redisson.yml
